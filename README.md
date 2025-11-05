@@ -40,6 +40,14 @@ TripAnalyticsDashboard/
  ├── README.md
  └── .gitignore
 
+ ## 🗂️ Veri Seti
+
+Bu projede kullanılan örnek veri, **[Kaggle - CityTrek-14K: A Large Dataset of 14k GPS Trajectories Covering 4.8k Hours of Driving](https://www.kaggle.com/datasets/sobhanmoosavi/citytrek-14k)** isimli açık veri setinden alınmıştır.  
+Veri seti, şehir genelinde sürüş rotaları, hız, konum ve zaman bilgilerini içeren **GPS tabanlı seyahat kayıtlarını** içerir.  
+
+CSV dosyası (`trajectories_to_publish.csv`), bu projede **örnek giriş verisi** olarak kullanılmıştır.  
+Amaç, ham konum verilerini veritabanına aktarıp daha ileri analiz veya dashboard geliştirme süreçleri için hazır hale getirmektir.
+
 
 ## Yazar
 
