@@ -1,0 +1,24 @@
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Compiled files
+bin/
+*.class
+
+# Databases and large datasets
+data/
+dataset/
+*.db
+*.csv
+
+# Libraries
+lib/
+*.jar
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
