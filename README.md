@@ -5,7 +5,7 @@ Amaç, ham seyahat verilerini düzenli bir veritabanı yapısına dönüştürer
 
 ---
 
-## 🚀 Özellikler
+## Özellikler
 
 - **SQLite veritabanı** oluşturur (`data/trips.db`).
 - Gerekli tabloları otomatik olarak hazırlar:
@@ -17,7 +17,7 @@ Amaç, ham seyahat verilerini düzenli bir veritabanı yapısına dönüştürer
 
 ---
 
-## 🧩 Kod Bileşenleri
+## Kod Bileşenleri
 
 | Sınıf | Görevi |
 |-------|--------|
@@ -29,22 +29,24 @@ Amaç, ham seyahat verilerini düzenli bir veritabanı yapısına dönüştürer
 
 ## 📁 Proje Yapısı
 
-├── src/
-│ ├── db/
-│ │ ├── DatabaseInitializer.java
-│ │ └── CSVLoader.java
-│ └── Main.java
-├── data/ (otomatik oluşturulur)
-├── dataset/ (CSV dosyası burada bulunur)
-├── README.md
-└── .gitignore
+TripAnalyticsDashboard/
+ ├── src/
+ │   ├── db/
+ │   │   ├── DatabaseInitializer.java
+ │   │   └── CSVLoader.java
+ │   └── Main.java
+ ├── data/              (otomatik oluşturulur)
+ ├── dataset/           (CSV dosyası burada bulunur)
+ ├── README.md
+ └── .gitignore
 
-## 👤 Yazar
 
-📌 Bu proje kişisel bir öğrenme ve veri hazırlama çalışmasıdır.
+## Yazar
+
+Bu proje kişisel bir öğrenme ve veri hazırlama çalışmasıdır.
 Veriler yalnızca örnek amaçlıdır.
 
-## 📈 Gelecekteki Geliştirmeler (Opsiyonel)
+## Gelecekteki Geliştirmeler (Opsiyonel)
 
 GUI veya web tabanlı dashboard entegrasyonu
 
